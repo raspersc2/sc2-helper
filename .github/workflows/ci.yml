@@ -4,6 +4,8 @@ on:
   release:
     types:
       - created
+  push:
+    branches: [ master, develop ]
 
 env:
   CARGO_TERM_COLOR: always
